@@ -1,4 +1,5 @@
 def square_array(array)
-  array.collect!{ |i| i*i }
+  array.each{ |i| squared << i}
 
+  array.collect!{ |i| i*i }
 end
